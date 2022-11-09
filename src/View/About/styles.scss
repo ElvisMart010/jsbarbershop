@@ -1,0 +1,181 @@
+
+//**--------------APARTADO NO.1 [TITULO]
+.title{
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size:cover;
+  background-repeat: no-repeat;         
+}
+
+
+  
+.title .h{
+  background-color: #ffffffb8;
+  color: #280606;
+  padding: 20px 120px;
+  font-size: 40px;
+  border-radius: 5px;
+  font-weight: 600;
+  margin: 10px;
+}
+
+
+
+
+//**--------------APARTADO NO.2 [INFORMACION ACERCA DE LA PÁGINA]
+
+.info{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width:100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 0px 7px #000000;
+  margin: 10px 10px;
+  color: #ffffff;
+  padding: 20px 30px;
+  width:70%;
+  background-color: #361212;
+  height: 100%;
+  
+}
+
+.text h3{
+  font-size: 30px;
+margin-bottom: 30px;
+}
+
+.text p{
+  text-align: center;
+}
+
+.text .text-2{
+  margin-top: 5px;
+  font-size: 19px;
+  
+}
+//**--------------APARTADO NO. 3[COMPONENTE MAPA]
+
+.location{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #361212;
+  padding: 10px;
+
+}
+.location h2{
+  font-size: 30px;
+  margin: 20px 0px;
+  color: #ffffff;
+
+
+}
+.location-p{
+  background-color: #ffffff;
+  color: #280606;
+  margin: 10px 10px;
+  padding: 20px 40px;
+  width:100%;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.horario-h2{
+  text-align: center;
+  margin:20px;
+  font-size: 30px;
+}
+//**--------------APARTADO NO.4 [HORARIO]
+
+.Horario{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 10px;
+  row-gap: 10px;
+  margin: 40px 10px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+.Horario div{
+  display: flex;
+  flex-direction: column;
+  background-color: #280606;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.Horario div h3{
+  background-color: #232121;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px 5px 0px 5px;
+ 
+}
+
+.Horario div p{
+  padding: 30px;
+ 
+}
+
+@media (max-width: 768px) {
+
+  .Horario{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .title .h{
+      padding: 10px 10px;  
+  }
+
+  
+.info{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width:100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 0px 7px #000000;
+  margin: 10px 10px;
+  color: #ffffff;
+  padding: 20px 30px;
+  width:70%;
+  background-color: #361212;
+  height:70%
+}
+
+} 

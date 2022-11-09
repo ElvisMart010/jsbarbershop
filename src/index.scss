@@ -1,0 +1,17 @@
+/*abstract*/
+
+@use './scss/Abstract/_mixins';
+@use './scss/Abstract/_variables';
+
+/*Base*/
+
+@use './scss/Base/_base';
+@use './scss/Base/_resets';
+
+body, html{
+   
+    display: inline;
+}
+iframe{
+    display: none;
+}

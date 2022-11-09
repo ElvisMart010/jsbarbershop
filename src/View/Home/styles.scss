@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@900&family=Montserrat:wght@900&family=Nanum+Gothic&family=Nunito:wght@600&family=Oleo+Script&family=Oswald:wght@200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,200;1,400&family=Press+Start+2P&family=Questrial&family=Raleway:wght@900&family=Roboto+Mono:ital,wght@1,200&display=swap');
+
+/*ARIL CODE*/
+
+
+/*------APARTADO HOME--------*/
+.Home{
+    width: 100%;
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+.general{
+    display: flex;
+    flex-direction: row;
+}
+.container-home{
+    width: 50%;
+    display: flex;
+    transition: 0.4s;
+}
+.container-home h2{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.container-home p{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.general{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-home{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: left;
+    color: white;
+    padding: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+.home-quote{
+    
+    background-color: #550a15;
+    padding: 10px 60px;
+    color: white;
+    margin-top: 30px;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 20px;transition: 0.7s;
+}
+
+.home-quote:hover{
+    
+    background-color: #ffffff;
+    padding: 10px 60px;
+    color: #550a15;
+    font-weight: 700;
+    
+
+}
+
+.container-home2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-home2 img{
+    width: 400px;
+    
+}
+
+/*-----------------------------------------*/
+/*--------MEDIAQUIRE----------------------*/
+/*-----------------------------------------*/
+
+
+@media (max-width: 767px) {
+    .general{
+        width: 100%;
+    }  
+    .general h2{
+        margin-top: 100px;
+    }  
+    .general{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-home{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        text-align: center;
+    }
+    .container-home{
+        align-items:center;
+        justify-content: center;
+        margin: 0px;
+        padding: 0;
+    }
+   
+
+    .container-home2 img{
+        margin-top: 70px;
+        
+    }
+}
+
+@media (max-width: 768px) {
+
+    .container-home2 img{
+        width: 350px;
+
+        
+    }
+
+}
+}
+
+@media (max-width: 767px) {
+
+    .Home{
+        height: 140vh;
+    }
+}
+
+@media (max-width: 280px) {
+
+    .Home{
+        height: 170vh;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+
+
+
+//*-----------BOTON DE QUOTE---------------*!
+
+.quote-home {
+    padding: 10px 40px;
+    background-color: #550a15;  
+    color: white;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.quote-home:hover{
+    padding: 10px 40px;
+    background-color: #ffffff;  
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-weight: 700;
+    transition: 0.4s;
+
+}

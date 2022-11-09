@@ -1,0 +1,102 @@
+
+
+.Footer{
+    background-color: #29060b;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    
+.div-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    border-bottom: 3px solid white;
+
+}
+
+.apt1{
+    display: flex;
+    width: 50%;
+    margin: 10px;
+    transition: 0.3s;
+
+
+}
+
+.apt2{
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    transition: 0.3s;
+
+}
+
+.apt2-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: 0.3s;
+}
+.apt2-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: 0.3s;
+
+}
+.apt2-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon{
+    margin-right:10px;
+}
+
+.div-2{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media (max-width:  767px) { 
+    .div-1{
+        flex-direction: column;
+    
+    }
+
+    
+.apt1{
+    display: flex;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.apt2{
+    margin-bottom: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px;
+}
+
+.apt2 h2{
+   text-align: center;
+   margin: 20px 0px;
+}
+.enlace1{
+    position: relative;
+}
+
+}          
+}

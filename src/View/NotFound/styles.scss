@@ -1,0 +1,24 @@
+.Not-Found{
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Not-Found video{
+    width: 50%;
+    
+}
+.container-notfound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .Not-Found video{
+        width: 90%;
+        
+    }
+
+}

@@ -1,0 +1,26 @@
+.Appointment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+}
+
+.Appointment video{
+    width: 40%;
+    margin: 50px 20px;
+    border-radius: 10px;
+
+}
+
+@media (max-width: 768px) {
+
+    .Appointment video{
+        width: 90%;
+    }
+    .Appointment{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+}
