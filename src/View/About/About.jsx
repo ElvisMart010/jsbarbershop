@@ -56,7 +56,7 @@ function About() {
 
             <div>
                 <h3>${item.Day}</h2>
-                <p>$${item.Input} to ${item.Output}</p>
+                <p>${item.Input} to ${item.Output}</p>
             </div>    
             `;
         })

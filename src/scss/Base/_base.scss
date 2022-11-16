@@ -9,16 +9,6 @@
 
 
 
-
-*{
-    font-family: var(--Popins5);
-    /**font-family: var(--Popins5);*/
-    /* h1 font-family: var(--H10);*/
-}
-
-
-
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -212,7 +202,7 @@
   [type="button"],
   [type="reset"],
   [type="submit"] {
-    -webkit-appearance: button;
+    appearance: button;
   }
   
   /**
@@ -304,7 +294,6 @@
    */
   
   [type="search"] {
-    -webkit-appearance: textfield; /* 1 */
     outline-offset: -2px; /* 2 */
   }
   
@@ -312,17 +301,14 @@
    * Remove the inner padding in Chrome and Safari on macOS.
    */
   
-  [type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none;
-  }
-  
+ 
   /**
    * 1. Correct the inability to style clickable types in iOS and Safari.
    * 2. Change font properties to `inherit` in Safari.
    */
   
   ::-webkit-file-upload-button {
-    -webkit-appearance: button; /* 1 */
+   appearance: button; /* 1 */
     font: inherit; /* 2 */
   }
   

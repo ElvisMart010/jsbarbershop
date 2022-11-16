@@ -8,14 +8,12 @@ function Form(){
 
 
     const sendEmail = (event)=>{
-        emailjs.sendForm('service_01mjvam','template_50kg1rf',event.target,'XmfEusCuBroOvNEt-')
-        .then(response => console.log(response))
-        .cath(error => console.log(error)) 
-        
-        event.preventDefault(); 
-        document.getElementById("input").value = "";
-        document.getElementById("input1").value = "";
-        document.getElementById("input2").value = "";
+        event.preventDefault() 
+        emailjs.sendForm('service_6k3reqk','template_lhtst69',event.target,'TmxGg3cO6G2He-EPm')
+        document.getElementById("input").value = ' '
+        document.getElementById("input1").value = ' '
+        document.getElementById("input2").value = ' '
+ 
     }
 
 

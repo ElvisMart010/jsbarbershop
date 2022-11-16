@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.scss";
-import notfound from "../../images/NOTFOUND.mp4"
+import notfound from "../../images/NOTFOUND.gif"
 
 
 
@@ -8,7 +8,9 @@ function NotFound(){
    return(
     <div className='Not-Found'>
         <div className="container-notfound">
-             <video autoPlay loop src={notfound}></video>
+            
+             <img src={notfound} alt="" />
+
         </div>
        
 

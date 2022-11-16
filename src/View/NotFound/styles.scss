@@ -5,8 +5,9 @@
     align-items: center;
 
 }
-.Not-Found video{
+.Not-Found img{
     width: 50%;
+    border-radius: 10px;
     
 }
 .container-notfound{
@@ -16,7 +17,7 @@
 }
 
 @media (max-width: 768px) {
-    .Not-Found video{
+    .Not-Found img{
         width: 90%;
         
     }

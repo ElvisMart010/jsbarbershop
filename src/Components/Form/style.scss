@@ -63,12 +63,15 @@
     width: 100%;
     margin-bottom: 20px;
     font-weight: 600;
+    border: 2px solid rgba(0, 0, 0, 0);
+
 }
 
 
 .form-buttom:hover{
     background-color: #ffffff;
     transition: 0.4s;
+    border: 2px solid black;
     color: rgb(38, 6, 6);
     
 }
