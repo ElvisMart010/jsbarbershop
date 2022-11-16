@@ -4,6 +4,15 @@ import {Link} from 'react-router-dom'
 import logo1 from '../../images/NEGRO.png'
 
 function Nav(){
+
+
+      
+    function muestraAlerta(evento) {
+      document.getElementById('ul-id').classList.toggle('ul-select');
+      let check = document.getElementById('check')
+      check.checked = false;
+    }
+
     return(
         //-------------BARRA DE NAVEGACIÓN RESPONSIVA*/
         
@@ -19,22 +28,30 @@ function Nav(){
                     </svg>
                 </label>
 
-                <Link to="/" className="enlace">
+                <div className="headercontain">
+                      <Link to="/" className="enlace">
                     <div className="contenedor-enlace">
                         <img src={logo1} alt="" className="logo" />
                         <div className="container-logo">
-                            <h1>JS Dominican<span> <p>BARBER SHOP</p> </span></h1>
+                            <h1>JS Dominican<span><p>BARBER SHOP</p> </span></h1>
                         </div>
                     </div>
              </Link>
+                </div>
 
-                        <ul className="container-ul">
-                                <li><Link to="/" className="activo">Home</Link></li>
-                                <li><Link to="/About" className=" aboutl">About Us</Link></li>
-                                <li><Link to="/Contact" className=" contactl">Contact</Link></li>
-                                <li><Link to="/Services" className=" servicesl">Services</Link></li>
-                                <li><Link to="/Quote" className="link-quote">Quote</Link></li>
-                        </ul>  
+              
+          
+                 <ul className="container-ul" id="ul-id">
+            
+                 
+                        <li><Link to="/"className="activo" id="foo" onClick={muestraAlerta}>Home</Link></li>
+                        <li><Link to="/About" className="aboutl btn" onClick={muestraAlerta}>About Us</Link></li>
+                        <li><Link to="/Contact" className="contactl btn" onClick={muestraAlerta}>Contact</Link></li>
+                        <li><Link to="/Services"  className="servicesl btn" onClick={muestraAlerta}>Services</Link></li>
+                        <li><Link to="/Quote"className="link-quote btn" onClick={muestraAlerta}>Quote</Link></li>
+                   
+                 </ul>  
+            
         </nav>
 
 

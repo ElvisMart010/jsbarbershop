@@ -27,7 +27,7 @@
     height: 100%;
 }
 
-.container-contact2 video{
+.container-contact2 img{
     width:70%;
     border-radius: 10px;
     
@@ -36,23 +36,24 @@
 
 //*------MEDIAQUIERE------------*//@at-root
 
-@media (max-width: 768px) {
+@media  (max-width: 768px)  {
 
-    .container-contact2 video{
-        width: 120%;
+    .container-contact2 img{
+        width: 160%;
     }
     .Contact{
       flex-direction: column;
-      height: 140vh;
+      height: 170vh;
     }
     .container-contact{
       flex-direction: column;
-      height: 140vh;
+      height: 170vh;
 
       width: 100%;
     }
     .form{
-      margin: 30px;
+      margin: 10px;
+      padding: 5px;
     }
   } 
 
